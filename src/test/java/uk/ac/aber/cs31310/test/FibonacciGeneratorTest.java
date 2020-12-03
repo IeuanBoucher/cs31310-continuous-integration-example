@@ -50,7 +50,7 @@ public class FibonacciGeneratorTest {
     public void testGenerates_0_1_1_2_forInput_4() {
         FibGenerator fibGen = new FibGenerator();
         ArrayList<Integer> values = fibGen.fib(4);
-        assertEquals(5, values.size()); //was 4
+        assertEquals(4, values.size()); //was 4
 
         ArrayList<Integer> expected =
                 new ArrayList<>(Arrays.asList(0, 1, 1, 2));
